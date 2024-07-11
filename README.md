@@ -1,7 +1,8 @@
 # polyrhythms
+
 inspired by the moog subharmonicon, a 1 to 8-step one to four-lane (hopefully) sequencer for norns whose rhythm is controlled by between one to four tempos per sequencer. Currently non-functional.
 
-Graphics:
+## Graphics:
 
 The GUI will hopefully be a grid of boxes. Here is an ASCII visualization of what I've been thinking:
 
@@ -20,21 +21,29 @@ Tempo 2 [080]      Tempo 4 [030]
 
 You have to set a tempo for each sequence by adding together tempos like this. This is what creates the odd polyrhythmic rhythm combinations that I personally love from the subharmonicon.
 
-Synth:
+## Synth:
 
 I am planning to use the built-in synth that is available by default for norns for this. I may attempt to figure out MIDI out if people want it as well.
 
-Plan:
-
-This is my first Norns script so I plan to grow it like this:
--Plan.
--Get a sequencer running and playing music, any number of steps. Also make it visible somehow.
--Get two sequencers running and playing music, any number of steps.
--Add adjustable tempos.
--Add additive tempos for one sequencer.
--Then for all sequencers.
--Then finish.
-
-Controls:
+## Controls:
 
 Something where the buttons select where you are and the knobs change values within your selection. Will figure this out as we go, assuming I ever get time to do this.
+
+## Plan/current status:
+
+This is my first Norns script so I plan to grow it in steps. Here are the steps and current overview of how far into them I am.
+
+### Plan. 
+40%
+### Get a sequencer running and playing music, any number of steps. Also make it visible somehow. 
+0%
+### Get two sequencers running and playing music, any number of steps.
+0%
+### Add adjustable tempos.
+0%
+### Add additive tempos for one sequencer.
+0%
+### Then for all sequencers.
+0%
+### Then finish.
+0%
