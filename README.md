@@ -5,16 +5,18 @@ Graphics:
 
 The GUI will hopefully be a grid of boxes. Here is an ASCII visualization of what I've been thinking:
 
-On Active Tempos         Sequece
-    [1][2][3][4]
+```
+ On  | Active Tempos | Sequece
+       [1][2][3][4]
 ___________________________________________
-[O] [ ][O][ ][ ]   [ A5][A#5][ O ][   ][   ][   ][   ][   ]
-[O] [O][ ][O][ ]   [ B3][B#4][ C5][O  ][ C6][ C7][ D6][D#5]
-[ ] [ ][O][ ][ ]   [ A5][A#5][ O ][   ][   ][   ][   ][   ]
-[ ] [O][ ][O][ ]   [ B3][B#4][ C5][O  ][ C6][ C7][ D6][D#5]
+ [O] | [ ][O][ ][ ]  |  [ A5][A#5][ O ][   ][   ][   ][   ][   ]
+ [O] | [O][ ][O][ ]  |  [ B3][B#4][ C5][O  ][ C6][ C7][ D6][D#5]
+ [ ] | [ ][O][ ][ ]  |  [ A5][A#5][ O ][   ][   ][   ][   ][   ]
+ [ ] | [O][ ][O][ ]  |  [ B3][B#4][ C5][O  ][ C6][ C7][ D6][D#5]
 
 Tempo 1 [120]       Tempo 3 [240]
 Tempo 2 [080]      Tempo 4 [030]
+```
 
 You have to set a tempo for each sequence by adding together tempos like this. This is what creates the odd polyrhythmic rhythm combinations that I personally love from the subharmonicon.
 
