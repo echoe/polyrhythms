@@ -27,14 +27,23 @@ I am planning to use the built-in synth that is available by default for norns f
 
 ## Controls:
 
-Something where the buttons select where you are and the knobs change values within your selection. Will figure this out as we go, assuming I ever get time to do this.
+Something where the buttons select where you are and the knobs change values within your selection. Current plan:
+
+-- E1 - with k2 down, change selected sequence, 1 through 4. else change selected tempo, 1 through 4
+-- E2 - change which note you have selected in the sequence. else do nothing
+-- E3 - change the value of the note you have selected. else change the tempo you have selected
+--
+-- K2: switch whether you're editing tempos or sequences
+-- K3: this is not used currently
 
 ## Plan/current status:
 
 This is my first Norns script so I plan to grow it in steps. Here are the steps and current overview of how far into them I am.
 
 ### Plan. 
-40%
+50%
+### Have a compiling script!
+10%
 ### Get a sequencer running and playing music, any number of steps. Also make it visible somehow. 
 0%
 ### Get two sequencers running and playing music, any number of steps.
